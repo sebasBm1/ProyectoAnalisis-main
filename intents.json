@@ -1,0 +1,28 @@
+{"intents":[
+    {"tag": "saludo",
+    "patterns": ["hola", "que tal", "buenas", "mucho gusto", "como estás", "saludos" ],
+    "responses": ["Hola!", "Que tal", "¡Muy bien!¿Tú como estás?"]
+    },
+
+    {"tag": "nombre",
+    "patterns": ["cual es tu nombre", "como te llamas"],
+    "responses": ["Me llamo RobotinIA", "Mi nombre es RobotinIA"]
+    },
+
+    {"tag": "nombre",
+    "patterns": ["cual es tu nombre", "como te llamas"],
+    "responses": ["Me llamo RobotinIA", "Mi nombre es RobotinIA"]
+    },
+
+    {"tag": "consultas",
+    "patterns": ["necesito de tu ayuda", "ayudame", "como hago esto", "como puedo hacer", "que debo hacer", "ayuda", "podrías decirme"],
+    "responses": ["Con gusto te ayudaré!", "Dime en que puedo ayudarte😇", "Claro, dime tu duda", "Claro!, te daré informacion"]
+    },
+
+    {"tag": "no responder",
+    "patterns": ["mierda", "carajo", "muerete"],
+    "responses": ["No se dicen esas cosas amiguito🗣❌"]
+    }
+
+]
+}
