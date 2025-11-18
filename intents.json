@@ -1,28 +1,56 @@
 {"intents":[
     {"tag": "saludo",
     "patterns": ["hola", "que tal", "buenas", "mucho gusto", "como estás", "saludos" ],
-    "responses": ["Hola!", "Que tal", "¡Muy bien!¿Tú como estás?"]
+    "responses": ["Hola!", "Que tal"]
     },
 
     {"tag": "nombre",
     "patterns": ["cual es tu nombre", "como te llamas"],
     "responses": ["Me llamo RobotinIA", "Mi nombre es RobotinIA"]
     },
-
-    {"tag": "nombre",
-    "patterns": ["cual es tu nombre", "como te llamas"],
-    "responses": ["Me llamo RobotinIA", "Mi nombre es RobotinIA"]
-    },
-
     {"tag": "consultas",
-    "patterns": ["necesito de tu ayuda", "ayudame", "como hago esto", "como puedo hacer", "que debo hacer", "ayuda", "podrías decirme"],
-    "responses": ["Con gusto te ayudaré!", "Dime en que puedo ayudarte😇", "Claro, dime tu duda", "Claro!, te daré informacion"]
+    "patterns": ["necesito de tu ayuda", "ayúdame", "cómo hago esto", "qué debo hacer", 
+        "puedes ayudarme", "tengo una duda", "me ayudas con algo",
+        "tengo un problema", "puedo hacer una consulta"],
+    "responses": ["Con gusto te ayudaré!", "Dime en que puedo ayudarte😇", "Claro, dime tu duda", "Claro!, te daré informacion", "Por supuesto, dime tu duda.",
+        "Claro, estoy aquí para ayudarte. ¿Qué necesitas?"]
     },
 
-    {"tag": "no responder",
-    "patterns": ["mierda", "carajo", "muerete"],
-    "responses": ["No se dicen esas cosas amiguito🗣❌"]
-    }
+     {
+      "tag": "cambiar_datos",
+      "patterns": [
+        "quiero cambiar mis datos", "actualizar información", "quiero cambiar mi dirección",
+        "necesito corregir mi nombre", "modificar mis datos"
+      ],
+      "responses": [
+        "Claro, puedo ayudarte con la actualización de tus datos. ¿Qué información deseas modificar?",
+        "Con gusto, dime qué dato deseas cambiar: nombre, dirección, correo o teléfono."
+      ]
+    },
 
+    {
+      "tag": "horarios",
+      "patterns": [
+        "horarios de atención", "a qué hora atienden", "cuál es su horario",
+        "cuándo están abiertos"
+      ],
+      "responses": [
+        "Nuestro horario de atención es de lunes a sábado de 8:00 a.m. a 6:00 p.m.",
+        "Atendemos de lunes a sábado entre las 8:00 a.m. y las 6:00 p.m. 😊"
+      ]
+    },
+
+     {
+      "tag": "reclamo",
+      "patterns": [
+        "quiero hacer un reclamo", "tengo un reclamo", "quiero quejarme",
+        "quiero reportar un problema", "mala atención"
+      ],
+      "responses": [
+        "Lamento lo sucedido. Por favor cuéntame qué ocurrió y te ayudaré de inmediato.",
+        "Estoy para ayudarte. ¿Podrías explicarme cuál es el inconveniente?"
+      ]
+    }
+    
 ]
 }
